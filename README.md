@@ -8,10 +8,12 @@ To write a program to predict the profit of a city using the linear regression m
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+
+1. Load the dataset and separate the input features and target variable.
+2. Standardize the input features and target using StandardScaler.
+3. Initialize the model parameters (theta) to zero and add a bias column.
+4. Apply Gradient Descent repeatedly to update theta by minimizing prediction error.
+5. Scale the new input, predict the profit, and convert the prediction back to the original scale.
 
 ## Program:
 ```
